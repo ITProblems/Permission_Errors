@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<avrf:logfile xmlns:avrf="Application Verifier">
+	<avrf:logSession TimeStarted="2019-06-21 : 16:13:54" PID="4680" Version="2">
+		<avrf:logEntry Time="2019-06-21 : 16:13:55" LayerName="LuaPriv" StopCode="0x33FF" Severity="Information">
+			<avrf:message>Information: LUAPriv version.</avrf:message>
+			<avrf:formatmessage>LUAPriv version: 1.0</avrf:formatmessage>
+			<avrf:parameter1>1 - Version major</avrf:parameter1>
+			<avrf:parameter2>0 - Version minor</avrf:parameter2>
+			<avrf:parameter3>0 - n/a</avrf:parameter3>
+			<avrf:parameter4>0 - n/a</avrf:parameter4>
+		</avrf:logEntry>
+		<avrf:logEntry Time="2019-06-21 : 16:13:55" LayerName="LuaPriv" StopCode="0x333A" Severity="Information">
+			<avrf:message>Information: Application file name.</avrf:message>
+			<avrf:formatmessage>C:\Versao320\SGT320\ChamaSgt.exe</avrf:formatmessage>
+			<avrf:parameter1>19f268 - File Name</avrf:parameter1>
+			<avrf:parameter2>0 - n/a</avrf:parameter2>
+			<avrf:parameter3>0 - n/a</avrf:parameter3>
+			<avrf:parameter4>0 - n/a</avrf:parameter4>
+		</avrf:logEntry>
+		<avrf:logEntry Time="2019-06-21 : 16:13:55" LayerName="LuaPriv" StopCode="0x332E" Severity="Warning">
+			<avrf:message>The application called an API that failed unexpectedly, possibly due to bad parameters.</avrf:message>
+			<avrf:formatmessage>OpenMutexW: Mutex (APPCOMPAT_HEAP_MANAGER_4680) is denied &apos;SYNCHRONIZE&apos; access with error 0x2.</avrf:formatmessage>
+			<avrf:parameter1>2 - Error returned</avrf:parameter1>
+			<avrf:parameter2>100000 - Access Requested (if applicable)</avrf:parameter2>
+			<avrf:parameter3>100000 - Access Requested (for compatibility)</avrf:parameter3>
+			<avrf:parameter4>0 - n/a</avrf:parameter4>
+			<avrf:stackTrace>
+				<avrf:trace>vfluapriv!+74c93f53 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c8e5a8 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!GetHookAPIs+75 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7427c8dd ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+74272668 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!GetHookAPIs+1a ( @ 0)</avrf:trace>
+				<avrf:trace>apphelp!SE_InstallBeforeInit+291 ( @ 0)</avrf:trace>
+				<avrf:trace>apphelp!SE_InstallBeforeInit+59 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+2c0 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+18a ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCaptureStackContext+24402 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrInitializeThunk+117 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrInitializeThunk+11 ( @ 0)</avrf:trace>
+			</avrf:stackTrace>
+		</avrf:logEntry>
+		<avrf:logEntry Time="2019-06-21 : 16:13:55" LayerName="LuaPriv" StopCode="0x332E" Severity="Warning">
+			<avrf:message>The application called an API that failed unexpectedly, possibly due to bad parameters.</avrf:message>
+			<avrf:formatmessage>OpenMutexW: Mutex (APPCOMPAT_HEAP_TWEAKER_4680) is denied &apos;SYNCHRONIZE&apos; access with error 0x2.</avrf:formatmessage>
+			<avrf:parameter1>2 - Error returned</avrf:parameter1>
+			<avrf:parameter2>100000 - Access Requested (if applicable)</avrf:parameter2>
+			<avrf:parameter3>100000 - Access Requested (for compatibility)</avrf:parameter3>
+			<avrf:parameter4>0 - n/a</avrf:parameter4>
+			<avrf:stackTrace>
+				<avrf:trace>vfluapriv!+74c93f53 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c8e5a8 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!GetHookAPIs+75 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7427c8dd ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+74272668 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!GetHookAPIs+1a ( @ 0)</avrf:trace>
+				<avrf:trace>apphelp!SE_InstallBeforeInit+291 ( @ 0)</avrf:trace>
+				<avrf:trace>apphelp!SE_InstallBeforeInit+59 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+2c0 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+18a ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCaptureStackContext+24402 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrInitializeThunk+117 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrInitializeThunk+11 ( @ 0)</avrf:trace>
+			</avrf:stackTrace>
+		</avrf:logEntry>
+		<avrf:logEntry Time="2019-06-21 : 16:13:55" LayerName="LuaPriv" StopCode="0x3307" Severity="Warning">
+			<avrf:message>Object opened/created without a namespace.</avrf:message>
+			<avrf:formatmessage>CreateMutexW: Mutex &apos;APPCOMPAT_HEAP_MANAGER_4680&apos; has no namespace</avrf:formatmessage>
+			<avrf:parameter1>74c83aa0 - Object Type</avrf:parameter1>
+			<avrf:parameter2>19f360 - Object Name</avrf:parameter2>
+			<avrf:parameter3>0 - N/A</avrf:parameter3>
+			<avrf:parameter4>d98 - Object Handle (if available)</avrf:parameter4>
+			<avrf:stackTrace>
+				<avrf:trace>vfluapriv!+74c87782 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c890f1 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c9043c ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7429d54f ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7427c8dd ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+74272668 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!GetHookAPIs+1a ( @ 0)</avrf:trace>
+				<avrf:trace>apphelp!SE_InstallBeforeInit+291 ( @ 0)</avrf:trace>
+				<avrf:trace>apphelp!SE_InstallBeforeInit+59 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+2c0 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+18a ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCaptureStackContext+24402 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrInitializeThunk+117 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrInitializeThunk+11 ( @ 0)</avrf:trace>
+			</avrf:stackTrace>
+		</avrf:logEntry>
+		<avrf:logEntry Time="2019-06-21 : 16:13:55" LayerName="LuaPriv" StopCode="0x3318" Severity="Warning">
+			<avrf:message>The object&apos;s security descriptor is inaccessible.</avrf:message>
+			<avrf:formatmessage>Key: (\REGISTRY\MACHINE) access 0x100 granted to &apos;O:SYD:(A;CI;KA;;;SY)(A;CI;KA;;;BA)(A;CI;KR;;;WD)(A;CI;KR;;;RC)(A;CI;KR;;;AC)(A;CI;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)&apos;</avrf:formatmessage>
+			<avrf:parameter1>74c83ad0 - Object Name</avrf:parameter1>
+			<avrf:parameter2>100 - Access Requested</avrf:parameter2>
+			<avrf:parameter3>ac1ff30 - Security Descriptor</avrf:parameter3>
+			<avrf:parameter4>f82af38 - String Security Descriptor</avrf:parameter4>
+			<avrf:stackTrace>
+				<avrf:trace>vfluapriv!+74c8843b ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c8906d ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c8fd79 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7428a00e ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+74287021 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7429b1cd ( @ 0)</avrf:trace>
+				<avrf:trace>combase!CoGetClassObject+4d7 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!CoCreateGuid+e56 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!CoCreateGuid+a66 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!InternalTlsAllocData+2f0b ( @ 0)</avrf:trace>
+				<avrf:trace>combase!CStdStubBuffer_AddRef+872a ( @ 0)</avrf:trace>
+				<avrf:trace>combase!InternalTlsAllocData+2b7 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!InternalCoUnregisterDisconnectCallback+788 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!InternalCoUnregisterDisconnectCallback+86e ( @ 0)</avrf:trace>
+				<avrf:trace>verifier!VerifierGetPropertyValueByName+7e04 ( @ 0)</avrf:trace>
+				<avrf:trace>vrfcore!VerifierTlsSetValue+48a ( @ 0)</avrf:trace>
+				<avrf:trace>vfbasics!+74cfaa54 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrDeleteEnclave+b6 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetNtSystemRoot+6c ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+23c ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+4af ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+4c6 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+4c6 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+4a8 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+33f ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+18a ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCaptureStackContext+24402 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrInitializeThunk+117 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrInitializeThunk+11 ( @ 0)</avrf:trace>
+			</avrf:stackTrace>
+		</avrf:logEntry>
+		<avrf:logEntry Time="2019-06-21 : 16:13:55" LayerName="LuaPriv" StopCode="0x332E" Severity="Warning">
+			<avrf:message>The application called an API that failed unexpectedly, possibly due to bad parameters.</avrf:message>
+			<avrf:formatmessage>RegOpenKeyExW: Key (\REGISTRY\MACHINE\Software\Microsoft\Ole\FeatureDevelopmentProperties) is denied &apos;(access mask 0x2000000)&apos; access with error 0x2.</avrf:formatmessage>
+			<avrf:parameter1>2 - Error returned</avrf:parameter1>
+			<avrf:parameter2>2000000 - Access Requested (if applicable)</avrf:parameter2>
+			<avrf:parameter3>2000000 - Access Requested (for compatibility)</avrf:parameter3>
+			<avrf:parameter4>0 - n/a</avrf:parameter4>
+			<avrf:stackTrace>
+				<avrf:trace>vfluapriv!+74c93f53 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c8fcf0 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7428a00e ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+74287021 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7429b1cd ( @ 0)</avrf:trace>
+				<avrf:trace>combase!CoGetClassObject+4d7 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!StringFromGUID2+890 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!CoCreateGuid+e6c ( @ 0)</avrf:trace>
+				<avrf:trace>combase!CoCreateGuid+a66 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!InternalTlsAllocData+2f0b ( @ 0)</avrf:trace>
+				<avrf:trace>combase!CStdStubBuffer_AddRef+872a ( @ 0)</avrf:trace>
+				<avrf:trace>combase!InternalTlsAllocData+2b7 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!InternalCoUnregisterDisconnectCallback+788 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!InternalCoUnregisterDisconnectCallback+86e ( @ 0)</avrf:trace>
+				<avrf:trace>verifier!VerifierGetPropertyValueByName+7e04 ( @ 0)</avrf:trace>
+				<avrf:trace>vrfcore!VerifierTlsSetValue+48a ( @ 0)</avrf:trace>
+				<avrf:trace>vfbasics!+74cfaa54 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrDeleteEnclave+b6 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetNtSystemRoot+6c ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+23c ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+4af ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+4c6 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+4c6 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+4a8 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+33f ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+18a ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCaptureStackContext+24402 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrInitializeThunk+117 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrInitializeThunk+11 ( @ 0)</avrf:trace>
+			</avrf:stackTrace>
+		</avrf:logEntry>
+		<avrf:logEntry Time="2019-06-21 : 16:13:55" LayerName="LuaPriv" StopCode="0x332E" Severity="Warning">
+			<avrf:message>The application called an API that failed unexpectedly, possibly due to bad parameters.</avrf:message>
+			<avrf:formatmessage>RegOpenKeyExW: Key (\REGISTRY\MACHINE\Software\Microsoft\Ole\FeatureDevelopmentProperties) is denied &apos;(access mask 0x2000000)&apos; access with error 0x2.</avrf:formatmessage>
+			<avrf:parameter1>2 - Error returned</avrf:parameter1>
+			<avrf:parameter2>2000000 - Access Requested (if applicable)</avrf:parameter2>
+			<avrf:parameter3>2000000 - Access Requested (for compatibility)</avrf:parameter3>
+			<avrf:parameter4>0 - n/a</avrf:parameter4>
+			<avrf:stackTrace>
+				<avrf:trace>vfluapriv!+74c93f53 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c8fcf0 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7428a00e ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+74287021 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7429b1cd ( @ 0)</avrf:trace>
+				<avrf:trace>combase!CoGetClassObject+4d7 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!StringFromGUID2+bf3 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!StringFromGUID2+b20 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!StringFromGUID2+9b5 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!StringFromGUID2+8a5 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!CoCreateGuid+e6c ( @ 0)</avrf:trace>
+				<avrf:trace>combase!CoCreateGuid+a66 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!InternalTlsAllocData+2f0b ( @ 0)</avrf:trace>
+				<avrf:trace>combase!CStdStubBuffer_AddRef+872a ( @ 0)</avrf:trace>
+				<avrf:trace>combase!InternalTlsAllocData+2b7 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!InternalCoUnregisterDisconnectCallback+788 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!InternalCoUnregisterDisconnectCallback+86e ( @ 0)</avrf:trace>
+				<avrf:trace>verifier!VerifierGetPropertyValueByName+7e04 ( @ 0)</avrf:trace>
+				<avrf:trace>vrfcore!VerifierTlsSetValue+48a ( @ 0)</avrf:trace>
+				<avrf:trace>vfbasics!+74cfaa54 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrDeleteEnclave+b6 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetNtSystemRoot+6c ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+23c ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+4af ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+4c6 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+4c6 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+4a8 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+33f ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+18a ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCaptureStackContext+24402 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrInitializeThunk+117 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrInitializeThunk+11 ( @ 0)</avrf:trace>
+			</avrf:stackTrace>
+		</avrf:logEntry>
+		<avrf:logEntry Time="2019-06-21 : 16:13:55" LayerName="LuaPriv" StopCode="0x3318" Severity="Warning">
+			<avrf:message>The object&apos;s security descriptor is inaccessible.</avrf:message>
+			<avrf:formatmessage>Key: (\REGISTRY\USER\S-1-5-21-1963478185-120474994-4162737174-1002_Classes\Local Settings) access 0x100 granted to &apos;O:SYD:P(A;OICI;KA;;;S-1-5-21-1963478185-120474994-4162737174-1002)(A;OICI;KA;;;SY)(A;OICI;KA;;;BA)(A;OICI;KR;;;RC)(A;;KR;;;AC)(A;;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)&apos;</avrf:formatmessage>
+			<avrf:parameter1>74c83ad0 - Object Name</avrf:parameter1>
+			<avrf:parameter2>100 - Access Requested</avrf:parameter2>
+			<avrf:parameter3>ac3ff20 - Security Descriptor</avrf:parameter3>
+			<avrf:parameter4>f87ef08 - String Security Descriptor</avrf:parameter4>
+			<avrf:stackTrace>
+				<avrf:trace>vfluapriv!+74c8843b ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c8906d ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c8fd79 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7428a00e ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+74287021 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7429b1cd ( @ 0)</avrf:trace>
+				<avrf:trace>combase!CoEnableCallCancellation+c7a ( @ 0)</avrf:trace>
+				<avrf:trace>combase!CoEnableCallCancellation+bff ( @ 0)</avrf:trace>
+				<avrf:trace>combase!RoInitialize+8ed ( @ 0)</avrf:trace>
+				<avrf:trace>combase!RoInitialize+30d ( @ 0)</avrf:trace>
+				<avrf:trace>combase!CoCreateGuid+bbf ( @ 0)</avrf:trace>
+				<avrf:trace>combase!InternalTlsAllocData+2f0b ( @ 0)</avrf:trace>
+				<avrf:trace>combase!CStdStubBuffer_AddRef+872a ( @ 0)</avrf:trace>
+				<avrf:trace>combase!InternalTlsAllocData+2b7 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!InternalCoUnregisterDisconnectCallback+788 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!InternalCoUnregisterDisconnectCallback+86e ( @ 0)</avrf:trace>
+				<avrf:trace>verifier!VerifierGetPropertyValueByName+7e04 ( @ 0)</avrf:trace>
+				<avrf:trace>vrfcore!VerifierTlsSetValue+48a ( @ 0)</avrf:trace>
+				<avrf:trace>vfbasics!+74cfaa54 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrDeleteEnclave+b6 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetNtSystemRoot+6c ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+23c ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+4af ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+4c6 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+4c6 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+4a8 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+33f ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+18a ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCaptureStackContext+24402 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrInitializeThunk+117 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrInitializeThunk+11 ( @ 0)</avrf:trace>
+			</avrf:stackTrace>
+		</avrf:logEntry>
+		<avrf:logEntry Time="2019-06-21 : 16:13:55" LayerName="LuaPriv" StopCode="0x332E" Severity="Warning">
+			<avrf:message>The application called an API that failed unexpectedly, possibly due to bad parameters.</avrf:message>
+			<avrf:formatmessage>RegOpenKeyExW: Key (\REGISTRY\USER\S-1-5-21-1963478185-120474994-4162737174-1002_Classes\Local Settings\Software\Microsoft\Ole\FeatureDevelopmentProperties) is denied &apos;(access mask 0x2000000)&apos; access with error 0x2.</avrf:formatmessage>
+			<avrf:parameter1>2 - Error returned</avrf:parameter1>
+			<avrf:parameter2>2000000 - Access Requested (if applicable)</avrf:parameter2>
+			<avrf:parameter3>2000000 - Access Requested (for compatibility)</avrf:parameter3>
+			<avrf:parameter4>0 - n/a</avrf:parameter4>
+			<avrf:stackTrace>
+				<avrf:trace>vfluapriv!+74c93f53 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c8fcf0 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7428a00e ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+74287021 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7429b1cd ( @ 0)</avrf:trace>
+				<avrf:trace>combase!CoGetClassObject+4d7 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!StringFromGUID2+890 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!RoInitialize+328 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!CoCreateGuid+bbf ( @ 0)</avrf:trace>
+				<avrf:trace>combase!InternalTlsAllocData+2f0b ( @ 0)</avrf:trace>
+				<avrf:trace>combase!CStdStubBuffer_AddRef+872a ( @ 0)</avrf:trace>
+				<avrf:trace>combase!InternalTlsAllocData+2b7 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!InternalCoUnregisterDisconnectCallback+788 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!InternalCoUnregisterDisconnectCallback+86e ( @ 0)</avrf:trace>
+				<avrf:trace>verifier!VerifierGetPropertyValueByName+7e04 ( @ 0)</avrf:trace>
+				<avrf:trace>vrfcore!VerifierTlsSetValue+48a ( @ 0)</avrf:trace>
+				<avrf:trace>vfbasics!+74cfaa54 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrDeleteEnclave+b6 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetNtSystemRoot+6c ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+23c ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+4af ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+4c6 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+4c6 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+4a8 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+33f ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+18a ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCaptureStackContext+24402 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrInitializeThunk+117 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrInitializeThunk+11 ( @ 0)</avrf:trace>
+			</avrf:stackTrace>
+		</avrf:logEntry>
+		<avrf:logEntry Time="2019-06-21 : 16:13:55" LayerName="LuaPriv" StopCode="0x332E" Severity="Warning">
+			<avrf:message>The application called an API that failed unexpectedly, possibly due to bad parameters.</avrf:message>
+			<avrf:formatmessage>RegOpenKeyExW: Key (\REGISTRY\USER\S-1-5-21-1963478185-120474994-4162737174-1002_Classes\Local Settings\Software\Microsoft\Ole\FeatureDevelopmentProperties) is denied &apos;(access mask 0x2000000)&apos; access with error 0x2.</avrf:formatmessage>
+			<avrf:parameter1>2 - Error returned</avrf:parameter1>
+			<avrf:parameter2>2000000 - Access Requested (if applicable)</avrf:parameter2>
+			<avrf:parameter3>2000000 - Access Requested (for compatibility)</avrf:parameter3>
+			<avrf:parameter4>0 - n/a</avrf:parameter4>
+			<avrf:stackTrace>
+				<avrf:trace>vfluapriv!+74c93f53 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c8fcf0 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7428a00e ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+74287021 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7429b1cd ( @ 0)</avrf:trace>
+				<avrf:trace>combase!CoGetClassObject+4d7 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!StringFromGUID2+bf3 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!StringFromGUID2+b20 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!StringFromGUID2+9b5 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!StringFromGUID2+8a5 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!RoInitialize+328 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!CoCreateGuid+bbf ( @ 0)</avrf:trace>
+				<avrf:trace>combase!InternalTlsAllocData+2f0b ( @ 0)</avrf:trace>
+				<avrf:trace>combase!CStdStubBuffer_AddRef+872a ( @ 0)</avrf:trace>
+				<avrf:trace>combase!InternalTlsAllocData+2b7 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!InternalCoUnregisterDisconnectCallback+788 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!InternalCoUnregisterDisconnectCallback+86e ( @ 0)</avrf:trace>
+				<avrf:trace>verifier!VerifierGetPropertyValueByName+7e04 ( @ 0)</avrf:trace>
+				<avrf:trace>vrfcore!VerifierTlsSetValue+48a ( @ 0)</avrf:trace>
+				<avrf:trace>vfbasics!+74cfaa54 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrDeleteEnclave+b6 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetNtSystemRoot+6c ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+23c ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+4af ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+4c6 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+4c6 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+4a8 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+33f ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+18a ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCaptureStackContext+24402 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrInitializeThunk+117 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrInitializeThunk+11 ( @ 0)</avrf:trace>
+			</avrf:stackTrace>
+		</avrf:logEntry>
+		<avrf:logEntry Time="2019-06-21 : 16:13:55" LayerName="LuaPriv" StopCode="0x332E" Severity="Warning">
+			<avrf:message>The application called an API that failed unexpectedly, possibly due to bad parameters.</avrf:message>
+			<avrf:formatmessage>RegOpenKeyExW: Key (\REGISTRY\USER\S-1-5-21-1963478185-120474994-4162737174-1002_Classes\Local Settings\Software\Microsoft\Ole) is denied &apos;(access mask 0x2000000)&apos; access with error 0x2.</avrf:formatmessage>
+			<avrf:parameter1>2 - Error returned</avrf:parameter1>
+			<avrf:parameter2>2000000 - Access Requested (if applicable)</avrf:parameter2>
+			<avrf:parameter3>2000000 - Access Requested (for compatibility)</avrf:parameter3>
+			<avrf:parameter4>0 - n/a</avrf:parameter4>
+			<avrf:stackTrace>
+				<avrf:trace>vfluapriv!+74c93f53 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c8fcf0 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7428a00e ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+74287021 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7429b1cd ( @ 0)</avrf:trace>
+				<avrf:trace>combase!CoGetClassObject+4d7 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!StringFromGUID2+bf3 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!StringFromGUID2+b98 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!StringFromGUID2+9b5 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!StringFromGUID2+8a5 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!RoInitialize+328 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!CoCreateGuid+bbf ( @ 0)</avrf:trace>
+				<avrf:trace>combase!InternalTlsAllocData+2f0b ( @ 0)</avrf:trace>
+				<avrf:trace>combase!CStdStubBuffer_AddRef+872a ( @ 0)</avrf:trace>
+				<avrf:trace>combase!InternalTlsAllocData+2b7 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!InternalCoUnregisterDisconnectCallback+788 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!InternalCoUnregisterDisconnectCallback+86e ( @ 0)</avrf:trace>
+				<avrf:trace>verifier!VerifierGetPropertyValueByName+7e04 ( @ 0)</avrf:trace>
+				<avrf:trace>vrfcore!VerifierTlsSetValue+48a ( @ 0)</avrf:trace>
+				<avrf:trace>vfbasics!+74cfaa54 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrDeleteEnclave+b6 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetNtSystemRoot+6c ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+23c ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+4af ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+4c6 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+4c6 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+4a8 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+33f ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+18a ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCaptureStackContext+24402 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrInitializeThunk+117 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrInitializeThunk+11 ( @ 0)</avrf:trace>
+			</avrf:stackTrace>
+		</avrf:logEntry>
+		<avrf:logEntry Time="2019-06-21 : 16:13:55" LayerName="LuaPriv" StopCode="0x332E" Severity="Warning">
+			<avrf:message>The application called an API that failed unexpectedly, possibly due to bad parameters.</avrf:message>
+			<avrf:formatmessage>RegOpenKeyExW: Key (HKEY_LOCAL_MACHINE\Software\Microsoft\OLE\Tracing) is denied &apos;(access mask 0x2000000)&apos; access with error 0x2.</avrf:formatmessage>
+			<avrf:parameter1>2 - Error returned</avrf:parameter1>
+			<avrf:parameter2>2000000 - Access Requested (if applicable)</avrf:parameter2>
+			<avrf:parameter3>2000000 - Access Requested (for compatibility)</avrf:parameter3>
+			<avrf:parameter4>0 - n/a</avrf:parameter4>
+			<avrf:stackTrace>
+				<avrf:trace>vfluapriv!+74c93f53 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c8fcf0 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7428a00e ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+74287021 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7429b1cd ( @ 0)</avrf:trace>
+				<avrf:trace>combase!CleanupTlsOleState+c6 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!InternalTlsAllocData+317 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!InternalCoUnregisterDisconnectCallback+788 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!InternalCoUnregisterDisconnectCallback+86e ( @ 0)</avrf:trace>
+				<avrf:trace>verifier!VerifierGetPropertyValueByName+7e04 ( @ 0)</avrf:trace>
+				<avrf:trace>vrfcore!VerifierTlsSetValue+48a ( @ 0)</avrf:trace>
+				<avrf:trace>vfbasics!+74cfaa54 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrDeleteEnclave+b6 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetNtSystemRoot+6c ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+23c ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+4af ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+4c6 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+4c6 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+4a8 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+33f ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+18a ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCaptureStackContext+24402 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrInitializeThunk+117 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrInitializeThunk+11 ( @ 0)</avrf:trace>
+			</avrf:stackTrace>
+		</avrf:logEntry>
+		<avrf:logEntry Time="2019-06-21 : 16:13:55" LayerName="LuaPriv" StopCode="0x332E" Severity="Warning">
+			<avrf:message>The application called an API that failed unexpectedly, possibly due to bad parameters.</avrf:message>
+			<avrf:formatmessage>OpenEventA: Event (HookSwitchHookEnabledEvent) is denied &apos;SYNCHRONIZE&apos; access with error 0x2.</avrf:formatmessage>
+			<avrf:parameter1>2 - Error returned</avrf:parameter1>
+			<avrf:parameter2>100000 - Access Requested (if applicable)</avrf:parameter2>
+			<avrf:parameter3>100000 - Access Requested (for compatibility)</avrf:parameter3>
+			<avrf:parameter4>0 - n/a</avrf:parameter4>
+			<avrf:stackTrace>
+				<avrf:trace>vfluapriv!+74c93f53 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c8d857 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!Ordinal90+b4d ( @ 0)</avrf:trace>
+				<avrf:trace>combase!InternalCoUnregisterDisconnectCallback+788 ( @ 0)</avrf:trace>
+				<avrf:trace>combase!InternalCoUnregisterDisconnectCallback+86e ( @ 0)</avrf:trace>
+				<avrf:trace>verifier!VerifierGetPropertyValueByName+7e04 ( @ 0)</avrf:trace>
+				<avrf:trace>vrfcore!VerifierTlsSetValue+48a ( @ 0)</avrf:trace>
+				<avrf:trace>vfbasics!+74cfaa54 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrDeleteEnclave+b6 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetNtSystemRoot+6c ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+23c ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+4af ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+4c6 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+4c6 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+4a8 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+33f ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+18a ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCaptureStackContext+24402 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrInitializeThunk+117 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrInitializeThunk+11 ( @ 0)</avrf:trace>
+			</avrf:stackTrace>
+		</avrf:logEntry>
+		<avrf:logEntry Time="2019-06-21 : 16:13:55" LayerName="LuaPriv" StopCode="0x332E" Severity="Warning">
+			<avrf:message>The application called an API that failed unexpectedly, possibly due to bad parameters.</avrf:message>
+			<avrf:formatmessage>RegOpenKeyExW: Key (HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\OLEAUT) is denied &apos;(access mask 0x2000000)&apos; access with error 0x2.</avrf:formatmessage>
+			<avrf:parameter1>2 - Error returned</avrf:parameter1>
+			<avrf:parameter2>2000000 - Access Requested (if applicable)</avrf:parameter2>
+			<avrf:parameter3>2000000 - Access Requested (for compatibility)</avrf:parameter3>
+			<avrf:parameter4>0 - n/a</avrf:parameter4>
+			<avrf:stackTrace>
+				<avrf:trace>vfluapriv!+74c93f53 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c8fcf0 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7428a00e ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+74289d6e ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+74286fcf ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7429b12d ( @ 0)</avrf:trace>
+				<avrf:trace>OLEAUT32!SafeArrayGetDim+265 ( @ 0)</avrf:trace>
+				<avrf:trace>OLEAUT32!SetErrorInfo+640 ( @ 0)</avrf:trace>
+				<avrf:trace>OLEAUT32!VarI2FromStr+458 ( @ 0)</avrf:trace>
+				<avrf:trace>OLEAUT32!VarI2FromStr+53e ( @ 0)</avrf:trace>
+				<avrf:trace>verifier!VerifierGetPropertyValueByName+7e04 ( @ 0)</avrf:trace>
+				<avrf:trace>vrfcore!VerifierTlsSetValue+48a ( @ 0)</avrf:trace>
+				<avrf:trace>vfbasics!+74cfaa54 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrDeleteEnclave+b6 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetNtSystemRoot+6c ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+23c ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+4af ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+4a8 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+33f ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlIsCloudFilesPlaceholder+18a ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCaptureStackContext+24402 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrInitializeThunk+117 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrInitializeThunk+11 ( @ 0)</avrf:trace>
+			</avrf:stackTrace>
+		</avrf:logEntry>
+		<avrf:logEntry Time="2019-06-21 : 16:14:00" LayerName="LuaPriv" StopCode="0x332E" Severity="Warning">
+			<avrf:message>The application called an API that failed unexpectedly, possibly due to bad parameters.</avrf:message>
+			<avrf:formatmessage>RegOpenKeyExW: Key (HKEY_LOCAL_MACHINE\Software\Microsoft\OLE\Tracing) is denied &apos;(access mask 0x2000000)&apos; access with error 0x2.</avrf:formatmessage>
+			<avrf:parameter1>2 - Error returned</avrf:parameter1>
+			<avrf:parameter2>2000000 - Access Requested (if applicable)</avrf:parameter2>
+			<avrf:parameter3>2000000 - Access Requested (for compatibility)</avrf:parameter3>
+			<avrf:parameter4>0 - n/a</avrf:parameter4>
+			<avrf:stackTrace>
+				<avrf:trace>vfluapriv!+74c93f53 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c8fcf0 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7428a00e ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+74287021 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7429b1cd ( @ 0)</avrf:trace>
+				<avrf:trace>ole32!CreatePointerMoniker+e20 ( @ 0)</avrf:trace>
+				<avrf:trace>ole32!DllRegisterServer+20 ( @ 0)</avrf:trace>
+				<avrf:trace>ole32!PropVariantCopy+2a8 ( @ 0)</avrf:trace>
+				<avrf:trace>ole32!PropVariantCopy+38e ( @ 0)</avrf:trace>
+				<avrf:trace>verifier!VerifierGetPropertyValueByName+7e04 ( @ 0)</avrf:trace>
+				<avrf:trace>vrfcore!VerifierTlsSetValue+48a ( @ 0)</avrf:trace>
+				<avrf:trace>vfbasics!+74cfaa54 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrDeleteEnclave+b6 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetNtSystemRoot+6c ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+23c ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+4af ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCompareUnicodeStrings+4c6 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCaptureStackContext+24840 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlCaptureStackContext+24633 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrInitializeThunk+117 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!LdrInitializeThunk+11 ( @ 0)</avrf:trace>
+			</avrf:stackTrace>
+		</avrf:logEntry>
+		<avrf:logEntry Time="2019-06-21 : 16:14:00" LayerName="LuaPriv" StopCode="0x332E" Severity="Warning">
+			<avrf:message>The application called an API that failed unexpectedly, possibly due to bad parameters.</avrf:message>
+			<avrf:formatmessage>RegOpenKeyExW: Key (HKEY_CURRENT_USER\Software\Borland\Locales) is denied &apos;(access mask 0x2000000)&apos; access with error 0x2.</avrf:formatmessage>
+			<avrf:parameter1>2 - Error returned</avrf:parameter1>
+			<avrf:parameter2>2000000 - Access Requested (if applicable)</avrf:parameter2>
+			<avrf:parameter3>2000000 - Access Requested (for compatibility)</avrf:parameter3>
+			<avrf:parameter4>0 - n/a</avrf:parameter4>
+			<avrf:stackTrace>
+				<avrf:trace>vfluapriv!+74c93f53 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c8fcf0 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7428a00e ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+74289d6e ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+74286fcf ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7429b12d ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+4063fb ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+4061ac ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+40461c ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+404683 ( @ 0)</avrf:trace>
+				<avrf:trace>KERNEL32!BaseThreadInitThunk+19 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetAppContainerNamedObjectPath+ed ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetAppContainerNamedObjectPath+bd ( @ 0)</avrf:trace>
+			</avrf:stackTrace>
+		</avrf:logEntry>
+		<avrf:logEntry Time="2019-06-21 : 16:14:00" LayerName="LuaPriv" StopCode="0x332E" Severity="Warning">
+			<avrf:message>The application called an API that failed unexpectedly, possibly due to bad parameters.</avrf:message>
+			<avrf:formatmessage>RegOpenKeyExW: Key (HKEY_LOCAL_MACHINE\Software\Borland\Locales) is denied &apos;(access mask 0x2000000)&apos; access with error 0x2.</avrf:formatmessage>
+			<avrf:parameter1>2 - Error returned</avrf:parameter1>
+			<avrf:parameter2>2000000 - Access Requested (if applicable)</avrf:parameter2>
+			<avrf:parameter3>2000000 - Access Requested (for compatibility)</avrf:parameter3>
+			<avrf:parameter4>0 - n/a</avrf:parameter4>
+			<avrf:stackTrace>
+				<avrf:trace>vfluapriv!+74c93f53 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c8fcf0 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7428a00e ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+74289d6e ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+74286fcf ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7429b12d ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+406419 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+4061ac ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+40461c ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+404683 ( @ 0)</avrf:trace>
+				<avrf:trace>KERNEL32!BaseThreadInitThunk+19 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetAppContainerNamedObjectPath+ed ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetAppContainerNamedObjectPath+bd ( @ 0)</avrf:trace>
+			</avrf:stackTrace>
+		</avrf:logEntry>
+		<avrf:logEntry Time="2019-06-21 : 16:14:00" LayerName="LuaPriv" StopCode="0x332E" Severity="Warning">
+			<avrf:message>The application called an API that failed unexpectedly, possibly due to bad parameters.</avrf:message>
+			<avrf:formatmessage>RegOpenKeyExW: Key (HKEY_CURRENT_USER\Software\Borland\Delphi\Locales) is denied &apos;(access mask 0x2000000)&apos; access with error 0x2.</avrf:formatmessage>
+			<avrf:parameter1>2 - Error returned</avrf:parameter1>
+			<avrf:parameter2>2000000 - Access Requested (if applicable)</avrf:parameter2>
+			<avrf:parameter3>2000000 - Access Requested (for compatibility)</avrf:parameter3>
+			<avrf:parameter4>0 - n/a</avrf:parameter4>
+			<avrf:stackTrace>
+				<avrf:trace>vfluapriv!+74c93f53 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c8fcf0 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7428a00e ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+74289d6e ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+74286fcf ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7429b12d ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+406437 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+4061ac ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+40461c ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+404683 ( @ 0)</avrf:trace>
+				<avrf:trace>KERNEL32!BaseThreadInitThunk+19 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetAppContainerNamedObjectPath+ed ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetAppContainerNamedObjectPath+bd ( @ 0)</avrf:trace>
+			</avrf:stackTrace>
+		</avrf:logEntry>
+		<avrf:logEntry Time="2019-06-21 : 16:14:01" LayerName="LuaPriv" StopCode="0x332E" Severity="Warning">
+			<avrf:message>The application called an API that failed unexpectedly, possibly due to bad parameters.</avrf:message>
+			<avrf:formatmessage>RegOpenKeyExW: Key (HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\CTF\Compatibility\ChamaSgt.exe) is denied &apos;(access mask 0x2000000)&apos; access with error 0x2.</avrf:formatmessage>
+			<avrf:parameter1>2 - Error returned</avrf:parameter1>
+			<avrf:parameter2>2000000 - Access Requested (if applicable)</avrf:parameter2>
+			<avrf:parameter3>2000000 - Access Requested (for compatibility)</avrf:parameter3>
+			<avrf:parameter4>0 - n/a</avrf:parameter4>
+			<avrf:stackTrace>
+				<avrf:trace>vfluapriv!+74c93f53 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c8fcf0 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7428a00e ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+74287021 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7429b1cd ( @ 0)</avrf:trace>
+				<avrf:trace>MSCTF!CtfImeProcessCicHotkey+7be4 ( @ 0)</avrf:trace>
+				<avrf:trace>MSCTF!TF_GetAppCompatFlags+141 ( @ 0)</avrf:trace>
+				<avrf:trace>IMM32!CtfImmGetTMAEFlags+355 ( @ 0)</avrf:trace>
+				<avrf:trace>IMM32!ImmSetActiveContext+6dc ( @ 0)</avrf:trace>
+				<avrf:trace>IMM32!ImmSetActiveContext+2df ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!GetWindowRgnBox+10df ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!IsWindow+1c5 ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!IsWindowRedirectedForPrint+175 ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!IsWindowRedirectedForPrint+55 ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!AddClipboardFormatListener+4b ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!CallWindowProcW+b2c ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!CallWindowProcW+6ca ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!IsRectEmpty+20f ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!KiUserCallbackDispatcher+4d ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+442aa0 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+44271b ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+427aee ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!AddClipboardFormatListener+4b ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!CallWindowProcW+b2c ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!CallWindowProcW+6ca ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!IsRectEmpty+20f ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!KiUserCallbackDispatcher+4d ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+43fc0f ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+442aa0 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+43f9df ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+44267c ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+4426e7 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+442aa0 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+43f9df ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+43e744 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+4de660 ( @ 0)</avrf:trace>
+				<avrf:trace>KERNEL32!BaseThreadInitThunk+19 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetAppContainerNamedObjectPath+ed ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetAppContainerNamedObjectPath+bd ( @ 0)</avrf:trace>
+			</avrf:stackTrace>
+		</avrf:logEntry>
+		<avrf:logEntry Time="2019-06-21 : 16:14:01" LayerName="LuaPriv" StopCode="0x332E" Severity="Warning">
+			<avrf:message>The application called an API that failed unexpectedly, possibly due to bad parameters.</avrf:message>
+			<avrf:formatmessage>RegOpenKeyExW: Key (HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\CTF\Compatibility\ChamaSgt.exe) is denied &apos;(access mask 0x2000000)&apos; access with error 0x2.</avrf:formatmessage>
+			<avrf:parameter1>2 - Error returned</avrf:parameter1>
+			<avrf:parameter2>2000000 - Access Requested (if applicable)</avrf:parameter2>
+			<avrf:parameter3>2000000 - Access Requested (for compatibility)</avrf:parameter3>
+			<avrf:parameter4>0 - n/a</avrf:parameter4>
+			<avrf:stackTrace>
+				<avrf:trace>vfluapriv!+74c93f53 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c8fcf0 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7428a00e ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+74287021 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7429b1cd ( @ 0)</avrf:trace>
+				<avrf:trace>MSCTF!TextInputClientWrapperCreate+5627 ( @ 0)</avrf:trace>
+				<avrf:trace>MSCTF!HasDeferredInputForCoreDispatcher+3288 ( @ 0)</avrf:trace>
+				<avrf:trace>MSCTF!CtfImeProcessCicHotkey+54af ( @ 0)</avrf:trace>
+				<avrf:trace>MSCTF!TF_Notify+12ce ( @ 0)</avrf:trace>
+				<avrf:trace>MSCTF!CtfImeCreateThreadMgr+fc ( @ 0)</avrf:trace>
+				<avrf:trace>MSCTF!CtfImeCreateThreadMgr+2b ( @ 0)</avrf:trace>
+				<avrf:trace>IMM32!CtfImmTIMActivate+11a ( @ 0)</avrf:trace>
+				<avrf:trace>IMM32!ImmSetActiveContext+6dc ( @ 0)</avrf:trace>
+				<avrf:trace>IMM32!ImmSetActiveContext+2df ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!GetWindowRgnBox+10df ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!IsWindow+1c5 ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!IsWindowRedirectedForPrint+175 ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!IsWindowRedirectedForPrint+55 ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!AddClipboardFormatListener+4b ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!CallWindowProcW+b2c ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!CallWindowProcW+6ca ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!IsRectEmpty+20f ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!KiUserCallbackDispatcher+4d ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+442aa0 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+44271b ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+427aee ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!AddClipboardFormatListener+4b ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!CallWindowProcW+b2c ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!CallWindowProcW+6ca ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!IsRectEmpty+20f ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!KiUserCallbackDispatcher+4d ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+43fc0f ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+442aa0 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+43f9df ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+44267c ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+4426e7 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+442aa0 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+43f9df ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+43e744 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+4de660 ( @ 0)</avrf:trace>
+				<avrf:trace>KERNEL32!BaseThreadInitThunk+19 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetAppContainerNamedObjectPath+ed ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetAppContainerNamedObjectPath+bd ( @ 0)</avrf:trace>
+			</avrf:stackTrace>
+		</avrf:logEntry>
+		<avrf:logEntry Time="2019-06-21 : 16:14:01" LayerName="LuaPriv" StopCode="0x332E" Severity="Warning">
+			<avrf:message>The application called an API that failed unexpectedly, possibly due to bad parameters.</avrf:message>
+			<avrf:formatmessage>OpenEventW: Event (Local\4ImmersiveFocusTrackingActiveEvent) is denied &apos;SYNCHRONIZE&apos; access with error 0x2.</avrf:formatmessage>
+			<avrf:parameter1>2 - Error returned</avrf:parameter1>
+			<avrf:parameter2>100000 - Access Requested (if applicable)</avrf:parameter2>
+			<avrf:parameter3>100000 - Access Requested (for compatibility)</avrf:parameter3>
+			<avrf:parameter4>0 - n/a</avrf:parameter4>
+			<avrf:stackTrace>
+				<avrf:trace>vfluapriv!+74c93f53 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c8da38 ( @ 0)</avrf:trace>
+				<avrf:trace>MSCTF!TextInputClientWrapperCreate+210e ( @ 0)</avrf:trace>
+				<avrf:trace>MSCTF!TextInputClientWrapperCreate+2be9 ( @ 0)</avrf:trace>
+				<avrf:trace>MSCTF!TF_CreateCTFWatchdogMutex+1716 ( @ 0)</avrf:trace>
+				<avrf:trace>MSCTF!TextInputClientWrapperCreate+6c8a ( @ 0)</avrf:trace>
+				<avrf:trace>MSCTF!TextInputClientWrapperCreate+5ca7 ( @ 0)</avrf:trace>
+				<avrf:trace>MSCTF!TF_Notify+1570 ( @ 0)</avrf:trace>
+				<avrf:trace>MSCTF!CtfImeCreateThreadMgr+13a ( @ 0)</avrf:trace>
+				<avrf:trace>MSCTF!CtfImeCreateThreadMgr+2b ( @ 0)</avrf:trace>
+				<avrf:trace>IMM32!CtfImmTIMActivate+11a ( @ 0)</avrf:trace>
+				<avrf:trace>IMM32!ImmSetActiveContext+6dc ( @ 0)</avrf:trace>
+				<avrf:trace>IMM32!ImmSetActiveContext+2df ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!GetWindowRgnBox+10df ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!IsWindow+1c5 ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!IsWindowRedirectedForPrint+175 ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!IsWindowRedirectedForPrint+55 ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!AddClipboardFormatListener+4b ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!CallWindowProcW+b2c ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!CallWindowProcW+6ca ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!IsRectEmpty+20f ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!KiUserCallbackDispatcher+4d ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+442aa0 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+44271b ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+427aee ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!AddClipboardFormatListener+4b ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!CallWindowProcW+b2c ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!CallWindowProcW+6ca ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!IsRectEmpty+20f ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!KiUserCallbackDispatcher+4d ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+43fc0f ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+442aa0 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+43f9df ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+44267c ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+4426e7 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+442aa0 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+43f9df ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+43e744 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+4de660 ( @ 0)</avrf:trace>
+				<avrf:trace>KERNEL32!BaseThreadInitThunk+19 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetAppContainerNamedObjectPath+ed ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetAppContainerNamedObjectPath+bd ( @ 0)</avrf:trace>
+			</avrf:stackTrace>
+		</avrf:logEntry>
+		<avrf:logEntry Time="2019-06-21 : 16:14:01" LayerName="LuaPriv" StopCode="0x332E" Severity="Warning">
+			<avrf:message>The application called an API that failed unexpectedly, possibly due to bad parameters.</avrf:message>
+			<avrf:formatmessage>GetFileAttributesA: File (\Device\Mup\192...\SGT\SGT320\Versao\) is denied &apos;FILE_READ_ATTRIBUTES&apos; access with error 0x10.</avrf:formatmessage>
+			<avrf:parameter1>10 - Error returned</avrf:parameter1>
+			<avrf:parameter2>80 - Access Requested (if applicable)</avrf:parameter2>
+			<avrf:parameter3>80 - Access Requested (for compatibility)</avrf:parameter3>
+			<avrf:parameter4>0 - n/a</avrf:parameter4>
+			<avrf:stackTrace>
+				<avrf:trace>vfluapriv!+74c93f53 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c94276 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c8a6c4 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+409614 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+4de094 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+436e76 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+427aee ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!AddClipboardFormatListener+4b ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!CallWindowProcW+b2c ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!DispatchMessageW+23b ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!DispatchMessageA+10 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+45e060 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+4de660 ( @ 0)</avrf:trace>
+				<avrf:trace>KERNEL32!BaseThreadInitThunk+19 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetAppContainerNamedObjectPath+ed ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetAppContainerNamedObjectPath+bd ( @ 0)</avrf:trace>
+			</avrf:stackTrace>
+		</avrf:logEntry>
+		<avrf:logEntry Time="2019-06-21 : 16:14:01" LayerName="LuaPriv" StopCode="0x332E" Severity="Warning">
+			<avrf:message>The application called an API that failed unexpectedly, possibly due to bad parameters.</avrf:message>
+			<avrf:formatmessage>GetFileAttributesA: File (\Device\HarddiskVolume2\Versao320\SGT320\486) is denied &apos;FILE_READ_ATTRIBUTES&apos; access with error 0x10.</avrf:formatmessage>
+			<avrf:parameter1>10 - Error returned</avrf:parameter1>
+			<avrf:parameter2>80 - Access Requested (if applicable)</avrf:parameter2>
+			<avrf:parameter3>80 - Access Requested (for compatibility)</avrf:parameter3>
+			<avrf:parameter4>0 - n/a</avrf:parameter4>
+			<avrf:stackTrace>
+				<avrf:trace>vfluapriv!+74c93f53 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c94276 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c8a6c4 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+409614 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+4de094 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+436e76 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+427aee ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!AddClipboardFormatListener+4b ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!CallWindowProcW+b2c ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!DispatchMessageW+23b ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!DispatchMessageA+10 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+45e060 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+4de660 ( @ 0)</avrf:trace>
+				<avrf:trace>KERNEL32!BaseThreadInitThunk+19 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetAppContainerNamedObjectPath+ed ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetAppContainerNamedObjectPath+bd ( @ 0)</avrf:trace>
+			</avrf:stackTrace>
+		</avrf:logEntry>
+		<avrf:logEntry Time="2019-06-21 : 16:14:01" LayerName="LuaPriv" StopCode="0x332E" Severity="Warning">
+			<avrf:message>The application called an API that failed unexpectedly, possibly due to bad parameters.</avrf:message>
+			<avrf:formatmessage>GetFileAttributesA: File (\Device\HarddiskVolume2\Versao320\SGT320\486\RECURSOS\IMAGENS) is denied &apos;FILE_READ_ATTRIBUTES&apos; access with error 0x10.</avrf:formatmessage>
+			<avrf:parameter1>10 - Error returned</avrf:parameter1>
+			<avrf:parameter2>80 - Access Requested (if applicable)</avrf:parameter2>
+			<avrf:parameter3>80 - Access Requested (for compatibility)</avrf:parameter3>
+			<avrf:parameter4>0 - n/a</avrf:parameter4>
+			<avrf:stackTrace>
+				<avrf:trace>vfluapriv!+74c93f53 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c94276 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c8a6c4 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+409614 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+4de094 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+436e76 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+427aee ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!AddClipboardFormatListener+4b ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!CallWindowProcW+b2c ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!DispatchMessageW+23b ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!DispatchMessageA+10 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+45e060 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+4de660 ( @ 0)</avrf:trace>
+				<avrf:trace>KERNEL32!BaseThreadInitThunk+19 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetAppContainerNamedObjectPath+ed ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetAppContainerNamedObjectPath+bd ( @ 0)</avrf:trace>
+			</avrf:stackTrace>
+		</avrf:logEntry>
+		<avrf:logEntry Time="2019-06-21 : 16:14:02" LayerName="LuaPriv" StopCode="0x332D" Severity="Error">
+			<avrf:message>The application was denied access to an object.</avrf:message>
+			<avrf:formatmessage>RegOpenKeyExW: Key (HKEY_LOCAL_MACHINE\software\microsoft\windows\currentversion\setup\PnpLockdownFiles) is denied &apos;(access mask 0x2000000)&apos; access with error 0x5.</avrf:formatmessage>
+			<avrf:parameter1>5 - Error returned</avrf:parameter1>
+			<avrf:parameter2>2000000 - Access Requested (if applicable)</avrf:parameter2>
+			<avrf:parameter3>2000000 - Access Requested (for compatibility)</avrf:parameter3>
+			<avrf:parameter4>0 - n/a</avrf:parameter4>
+			<avrf:stackTrace>
+				<avrf:trace>vfluapriv!+74c93f81 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c8fcf0 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7428a00e ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+74287021 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7429b1cd ( @ 0)</avrf:trace>
+				<avrf:trace>SETUPAPI!PnpIsFilePnpDriver+cb ( @ 0)</avrf:trace>
+				<avrf:trace>SETUPAPI!PnpIsFilePnpDriver+23 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7429a05e ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+4de1a1 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+4ddc59 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+4de094 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+436e76 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+427aee ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!AddClipboardFormatListener+4b ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!CallWindowProcW+b2c ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!DispatchMessageW+23b ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!DispatchMessageA+10 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+45e060 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+4de660 ( @ 0)</avrf:trace>
+				<avrf:trace>KERNEL32!BaseThreadInitThunk+19 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetAppContainerNamedObjectPath+ed ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetAppContainerNamedObjectPath+bd ( @ 0)</avrf:trace>
+			</avrf:stackTrace>
+		</avrf:logEntry>
+		<avrf:logEntry Time="2019-06-21 : 16:14:02" LayerName="LuaPriv" StopCode="0x332D" Severity="Error">
+			<avrf:message>The application was denied access to an object.</avrf:message>
+			<avrf:formatmessage>RegOpenKeyExW: Key (HKEY_LOCAL_MACHINE\software\microsoft\windows\currentversion\setup\PnpLockdownFiles) is denied &apos;(access mask 0x2000000)&apos; access with error 0x5.</avrf:formatmessage>
+			<avrf:parameter1>5 - Error returned</avrf:parameter1>
+			<avrf:parameter2>2000000 - Access Requested (if applicable)</avrf:parameter2>
+			<avrf:parameter3>2000000 - Access Requested (for compatibility)</avrf:parameter3>
+			<avrf:parameter4>0 - n/a</avrf:parameter4>
+			<avrf:stackTrace>
+				<avrf:trace>vfluapriv!+74c93f81 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c8fcf0 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7428a00e ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+74287021 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7429b201 ( @ 0)</avrf:trace>
+				<avrf:trace>SETUPAPI!PnpIsFilePnpDriver+cb ( @ 0)</avrf:trace>
+				<avrf:trace>SETUPAPI!PnpIsFilePnpDriver+23 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7429a05e ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+4de1a1 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+4ddc59 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+4de094 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+436e76 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+427aee ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!AddClipboardFormatListener+4b ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!CallWindowProcW+b2c ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!DispatchMessageW+23b ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!DispatchMessageA+10 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+45e060 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+4de660 ( @ 0)</avrf:trace>
+				<avrf:trace>KERNEL32!BaseThreadInitThunk+19 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetAppContainerNamedObjectPath+ed ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetAppContainerNamedObjectPath+bd ( @ 0)</avrf:trace>
+			</avrf:stackTrace>
+		</avrf:logEntry>
+		<avrf:logEntry Time="2019-06-21 : 16:14:02" LayerName="LuaPriv" StopCode="0x332D" Severity="Error">
+			<avrf:message>The application was denied access to an object.</avrf:message>
+			<avrf:formatmessage>RegOpenKeyExW: Key (HKEY_LOCAL_MACHINE\software\microsoft\windows\currentversion\setup\PnpLockdownFiles) is denied &apos;(access mask 0x2000000)&apos; access with error 0x5.</avrf:formatmessage>
+			<avrf:parameter1>5 - Error returned</avrf:parameter1>
+			<avrf:parameter2>2000000 - Access Requested (if applicable)</avrf:parameter2>
+			<avrf:parameter3>2000000 - Access Requested (for compatibility)</avrf:parameter3>
+			<avrf:parameter4>0 - n/a</avrf:parameter4>
+			<avrf:stackTrace>
+				<avrf:trace>vfluapriv!+74c93f81 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c8fcf0 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7428a00e ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+74287021 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7429b1cd ( @ 0)</avrf:trace>
+				<avrf:trace>SETUPAPI!PnpIsFilePnpDriver+cb ( @ 0)</avrf:trace>
+				<avrf:trace>SETUPAPI!PnpIsFilePnpDriver+23 ( @ 0)</avrf:trace>
+				<avrf:trace>sfc_os!SfcIsFileProtected+58 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7429a06e ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+4de1a1 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+4ddc59 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+4de094 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+436e76 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+427aee ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!AddClipboardFormatListener+4b ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!CallWindowProcW+b2c ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!DispatchMessageW+23b ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!DispatchMessageA+10 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+45e060 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+4de660 ( @ 0)</avrf:trace>
+				<avrf:trace>KERNEL32!BaseThreadInitThunk+19 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetAppContainerNamedObjectPath+ed ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetAppContainerNamedObjectPath+bd ( @ 0)</avrf:trace>
+			</avrf:stackTrace>
+		</avrf:logEntry>
+		<avrf:logEntry Time="2019-06-21 : 16:14:02" LayerName="LuaPriv" StopCode="0x332D" Severity="Error">
+			<avrf:message>The application was denied access to an object.</avrf:message>
+			<avrf:formatmessage>RegOpenKeyExW: Key (HKEY_LOCAL_MACHINE\software\microsoft\windows\currentversion\setup\PnpLockdownFiles) is denied &apos;(access mask 0x2000000)&apos; access with error 0x5.</avrf:formatmessage>
+			<avrf:parameter1>5 - Error returned</avrf:parameter1>
+			<avrf:parameter2>2000000 - Access Requested (if applicable)</avrf:parameter2>
+			<avrf:parameter3>2000000 - Access Requested (for compatibility)</avrf:parameter3>
+			<avrf:parameter4>0 - n/a</avrf:parameter4>
+			<avrf:stackTrace>
+				<avrf:trace>vfluapriv!+74c93f81 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c8fcf0 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7428a00e ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+74287021 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7429b201 ( @ 0)</avrf:trace>
+				<avrf:trace>SETUPAPI!PnpIsFilePnpDriver+cb ( @ 0)</avrf:trace>
+				<avrf:trace>SETUPAPI!PnpIsFilePnpDriver+23 ( @ 0)</avrf:trace>
+				<avrf:trace>sfc_os!SfcIsFileProtected+58 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+7429a06e ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+4de1a1 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+4ddc59 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+4de094 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+436e76 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+427aee ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!AddClipboardFormatListener+4b ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!CallWindowProcW+b2c ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!DispatchMessageW+23b ( @ 0)</avrf:trace>
+				<avrf:trace>USER32!DispatchMessageA+10 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+45e060 ( @ 0)</avrf:trace>
+				<avrf:trace>ChamaSgt!+4de660 ( @ 0)</avrf:trace>
+				<avrf:trace>KERNEL32!BaseThreadInitThunk+19 ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetAppContainerNamedObjectPath+ed ( @ 0)</avrf:trace>
+				<avrf:trace>ntdll!RtlGetAppContainerNamedObjectPath+bd ( @ 0)</avrf:trace>
+			</avrf:stackTrace>
+		</avrf:logEntry>
+		<avrf:logEntry Time="2019-06-21 : 16:14:02" LayerName="LuaPriv" StopCode="0x331B" Severity="Error">
+			<avrf:message>Access was restricted to trusted users only.</avrf:message>
+			<avrf:formatmessage>RegDeleteKeyW: Key (\REGISTRY\MACHINE\SOFTWARE\Classes\AOSMTPEX.Mail.1\CLSID) only grants requested &apos;DELETE&apos; to &apos;BUILTIN\Administradores, AUTORIDADE NT\SISTEMA, BUILTIN\Administradores, \PROPRIETÁRIO CRIADOR&apos;</avrf:formatmessage>
+			<avrf:parameter1>74c83ad0 - Object Type</avrf:parameter1>
+			<avrf:parameter2>198f8f80 - Object Name</avrf:parameter2>
+			<avrf:parameter3>10000 - Access Mask</avrf:parameter3>
+			<avrf:parameter4>19902f40 - String SID</avrf:parameter4>
+			<avrf:stackTrace>
+				<avrf:trace>vfluapriv!+74c8852c ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c886b3 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c889a7 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c88a96 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c88f15 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c89050 ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c8b71e ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+74288597 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+742881f1 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+74286bf6 ( @ 0)</avrf:trace>
+				<avrf:trace>AOSMTPEX!DllCanUnloadNow+2417 ( @ 0)</avrf:trace>
+			</avrf:stackTrace>
+		</avrf:logEntry>
+		<avrf:logEntry Time="2019-06-21 : 16:14:02" LayerName="LuaPriv" StopCode="0x3318" Severity="Warning">
+			<avrf:message>The object&apos;s security descriptor is inaccessible.</avrf:message>
+			<avrf:formatmessage>Key: (\REGISTRY\MACHINE\SOFTWARE\Classes\AOSMTPEX.Mail.1\CLSID) access 0x10000 granted to &apos;O:BAD:(A;CI;KR;;;BU)(A;CI;KA;;;BA)(A;CI;KA;;;SY)(A;;KA;;;BA)(A;CIIO;KA;;;CO)(A;CI;KR;;;AC)(A;CI;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)&apos;</avrf:formatmessage>
+			<avrf:parameter1>74c83ad0 - Object Name</avrf:parameter1>
+			<avrf:parameter2>10000 - Access Requested</avrf:parameter2>
+			<avrf:parameter3>198faf10 - Security Descriptor</avrf:parameter3>
+			<avrf:parameter4>7555f28 - String Security Descriptor</avrf:parameter4>
+			<avrf:stackTrace>
+				<avrf:trace>vfluapriv!+74c8843b ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c8906d ( @ 0)</avrf:trace>
+				<avrf:trace>vfluapriv!+74c8b71e ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+74288597 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+742881f1 ( @ 0)</avrf:trace>
+				<avrf:trace>AcLayers!+74286bf6 ( @ 0)</avrf:trace>
+				<avrf:trace>AOSMTPEX!DllCanUnloadNow+2417 ( @ 0)</avrf:trace>
+			</avrf:stackTrace>
+		</avrf:logEntry>
+	</avrf:logSession>
+</avrf:logfile>
